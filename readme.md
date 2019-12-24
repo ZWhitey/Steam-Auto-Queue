@@ -15,7 +15,7 @@ This script can help you finish Steam Discovery Queue (Winter sales 2019) automa
 3. Wait a second
 4. You have got your cards
 
-# Advence Usage (for fully automatic and multiple accounts)
+# Advenced Usage (for fully automatic and multiple accounts)
 
 1. Rename `config_template.json` to `config.json`
 2. Edit `account`, `password` and `shared_secret` in `config.json`
