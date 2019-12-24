@@ -20,5 +20,9 @@
     "queue"
   ],
   "author": "Whitey",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZWhitey/Steam-Auto-Queue.git"
+  }
 }
