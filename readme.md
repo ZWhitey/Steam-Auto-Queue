@@ -15,11 +15,13 @@ This script can help you finish Steam Discovery Queue (Winter sales 2019) automa
 3. Wait a second
 4. You have got your cards
 
-# Advence Usage (for fully automatic)
+# Advence Usage (for fully automatic and multiple accounts)
 
 1. Rename `config_template.json` to `config.json`
 2. Edit `account`, `password` and `shared_secret` in `config.json`
 3. Run script `node index.js`
+4. Wait a minute
+5. You have got your cards
 
 # What is shared_secret
 
@@ -29,6 +31,33 @@ This script can help you finish Steam Discovery Queue (Winter sales 2019) automa
 
 This [link](https://www.reddit.com/r/SteamBot/comments/3xb1ft/finding_shared_secret_identity_secret_required/) will help your find your `shared_secret`.
 
+# Config
+
+Put all your accounts info into `config.json`
+
+Config file format:
+
+```json
+[
+    {
+        "account": "YOUR_ACCOUNT_1",
+        "password": "YOUR_PASSWORD_1",
+        "shared_secret": "YOUR_Shared_Secret_1"
+    },
+    {
+        "account": "YOUR_ACCOUNT_2",
+        "password": "YOUR_PASSWORD_2",
+        "shared_secret": "YOUR_Shared_Secret_2"
+    },
+    {
+        "account": "YOUR_ACCOUNT_3",
+        "password": "YOUR_PASSWORD_3",
+        "shared_secret": "YOUR_Shared_Secret_3"
+    },
+    ...
+]
+```
+
 # Todo
 
-1. Support multiple account
+~~1. Support multiple account~~

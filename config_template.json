@@ -1,5 +1,12 @@
-{
-    "account": "YOUR_ACCOUNT",
-    "password": "YOUR_PASSWORD",
-    "shared_secret": "YOUR_Shared_Secret"
-}
+[
+    {
+        "account": "YOUR_ACCOUNT_1",
+        "password": "YOUR_PASSWORD_1",
+        "shared_secret": "YOUR_Shared_Secret_1"
+    },
+    {
+        "account": "YOUR_ACCOUNT_2",
+        "password": "YOUR_PASSWORD_2",
+        "shared_secret": "YOUR_Shared_Secret_2"
+    }
+]
