@@ -1,0 +1,24 @@
+{
+  "name": "steam-auto-queue",
+  "version": "1.0.0",
+  "description": "Auto finish steam discovery queue",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "prompt-sync": "^4.2.0",
+    "steam-totp": "^2.1.1",
+    "steamcommunity": "^3.41.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "steam",
+    "card",
+    "queue"
+  ],
+  "author": "Whitey",
+  "license": "ISC"
+}
