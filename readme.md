@@ -23,7 +23,9 @@ This script can help you finish Steam Discovery Queue (Winter sales 2019) automa
 
 # What is shared_secret
 
-`shared_secret` is for generate steam 2FA code, if you don't want to generate 2FA code automatically just put empty string in `shared_secret`.
+`shared_secret` is for generate steam 2FA code, if you don't want to generate 2FA code automatically just put `empty string` in `shared_secret`.
+
+*If you put empty string in `shared_secret`, you need to enter 2FA code manually.*
 
 This [link](https://www.reddit.com/r/SteamBot/comments/3xb1ft/finding_shared_secret_identity_secret_required/) will help your find your `shared_secret`.
 
