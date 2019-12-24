@@ -29,7 +29,7 @@ This script can help you finish Steam Discovery Queue (Winter sales 2019) automa
 
 *If `shared_secret` set to `""`, you need to enter 2FA code manually.*
 
-This [link](https://www.reddit.com/r/SteamBot/comments/3xb1ft/finding_shared_secret_identity_secret_required/) will help your find your `shared_secret`.
+This [link](https://www.reddit.com/r/SteamBot/comments/3xb1ft/finding_shared_secret_identity_secret_required/) will help you find your `shared_secret`.
 
 # Config
 
