@@ -2,16 +2,17 @@ const AutoCard = require('./autocard.js');
 
 try{
     var User = require('./config.json');
-}
-catch(err){
-    console.log('No config file, using standard input');
-}
-
-if(User){
     User.forEach(data => {
         new AutoCard(data);
     });
 }
-else{
-    new AutoCard()
+catch(err){
+    if(err.message.search('Cannot find module') != -1){
+        console.log('No config file, using standard input');
+        new AutoCard();
+    }
+    else{
+        console.error(err.message);
+    }
 }
+
