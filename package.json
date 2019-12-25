@@ -1,6 +1,6 @@
 {
   "name": "steam-auto-queue",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "Auto finish steam discovery queue",
   "main": "index.js",
   "dependencies": {

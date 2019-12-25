@@ -29,8 +29,12 @@ module.exports = class autoCard{
 
     explore(remain) {
         this.community.request.post({url:'https://store.steampowered.com/explore/generatenewdiscoveryqueue',form:{'sessionid':this.community.getSessionID() ,queuetype:0}},(err,res,body)=>{
-            if(err || !body){
+            if(err){
                 console.error(`[${this.data.account}]`,err.message);
+                return;
+            }
+            if(!body){
+                console.error(`[${this.data.account}]`,res.statusCode);
                 return;
             }
             var data = JSON.parse(body);
