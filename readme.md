@@ -1,6 +1,10 @@
 # Steam Auto Queue
 
-This script can help you finish Steam Discovery Queue (Winter sales 2019) automatically.
+This script can help you finish Steam Discovery Queue automatically.
+
+# Tested Event 
+1. Winter sales 2019
+2. Summary sales 2020
 
 # Installation
 
