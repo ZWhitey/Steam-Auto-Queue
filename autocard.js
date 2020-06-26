@@ -3,8 +3,9 @@ const SteamTotp = require('steam-totp');
 const SteamCommunity = require('steamcommunity');
 
 module.exports = class autoCard{
-    constructor(data){
+    constructor(data, remain){
         this.data = data?data:{};
+        this.remain = remain;
         this.community = new SteamCommunity();
 
         this.data.account = this.data.account?this.data.account:prompt('Enter your account: ');
@@ -23,7 +24,7 @@ module.exports = class autoCard{
         }
             console.log(`${logData.accountName} logged into steam`);
             console.log(`[${this.data.account}] Discovering queue`);
-            this.explore(3);
+            this.explore(this.remain);
         })
     }
 
@@ -37,23 +38,28 @@ module.exports = class autoCard{
                 console.error(`[${this.data.account}]`,res.statusCode);
                 return;
             }
-            var data = JSON.parse(body);
-            var queueFin = [];
-            data.queue.forEach(appid => {
-                queueFin.push(this.community.request.post({url:'https://store.steampowered.com/app/60',
-                                        form:{appid_to_clear_from_queue:appid,sessionid:this.community.getSessionID()}}));  
-            });
-            Promise.all(queueFin).then(()=>{
-                if(remain - 1 > 0){
-                    console.log(`[${this.data.account}] Queue Remain: ${remain - 1}`);
-                    this.explore(remain - 1);
-                }
-                else{
-                    console.log(`[${this.data.account}] Queue Finished`);
-                }
-            },res => {
-                console.error(`[${this.data.account}]`,res);
-            })
+            try{
+                var data = JSON.parse(body);
+                var queueFin = [];
+                data.queue.forEach(appid => {
+                    queueFin.push(this.community.request.post({url:'https://store.steampowered.com/app/60',
+                                            form:{appid_to_clear_from_queue:appid,sessionid:this.community.getSessionID()}}));  
+                });
+                Promise.all(queueFin).then(()=>{
+                    if(remain - 1 > 0){
+                        console.log(`[${this.data.account}] Queue Remain: ${remain - 1}`);
+                        this.explore(remain - 1);
+                    }
+                    else{
+                        console.log(`[${this.data.account}] Queue Finished`);
+                    }
+                },res => {
+                    console.error(`[${this.data.account}]`,res);
+                })
+            }
+            catch(err){
+                console.error(`[${this.data.account}]`,err);
+            }
         }); 
     }
 }

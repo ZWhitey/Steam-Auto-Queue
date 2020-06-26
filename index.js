@@ -1,5 +1,5 @@
 const AutoCard = require('./autocard.js');
-
+const remain = parseInt(process.argv[2],10) || 3; 
 
 main();
 async function main(){
@@ -25,7 +25,7 @@ async function main(){
 
 async function getClient(data) {
     return new Promise(resolve=>{
-        new AutoCard(data);
+        new AutoCard(data,remain);
         resolve();
     })
 }
