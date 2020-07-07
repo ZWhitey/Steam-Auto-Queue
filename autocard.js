@@ -38,6 +38,10 @@ module.exports = class autoCard{
                 console.error(`[${this.data.account}]`,res.statusCode);
                 return;
             }
+            if(res.statusCode !== 200){
+                console.error(`[${this.data.account}] ${res.statusCode} ${res.statusMessage}`,);
+                return;
+            }
             try{
                 var data = JSON.parse(body);
                 var queueFin = [];
