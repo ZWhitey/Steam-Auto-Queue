@@ -7,6 +7,7 @@ This script can help you finish Steam Discovery Queue automatically.
 2. Summer sales 2020
 3. Winter sales 2020
 4. Summer sales 2021
+5. Winter sales 2021
 
 # Installation
 
