@@ -8,7 +8,9 @@
     "steam-totp": "^2.1.1",
     "steamcommunity": "^3.41.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
