@@ -2,6 +2,25 @@
   {
     "name": "autocard",
     "script": "autocard.js",
-    "enable": true
+    "enable": false
+  },
+  {
+    "name": "steam-awards-2021",
+    "script": "autovote.js",
+    "enable": true,
+    "data": {
+      "votes": [
+      { "voteid": "61", "appid": "892970" },
+      { "voteid": "62", "appid": "1358140" },
+      { "voteid": "63", "appid": "570" },
+      { "voteid": "64", "appid": "892970" },
+      { "voteid": "65", "appid": "1551360" },
+      { "voteid": "66", "appid": "1097200" },
+      { "voteid": "67", "appid": "1325200" },
+      { "voteid": "68", "appid": "1382330" },
+      { "voteid": "69", "appid": "1091500" },
+      { "voteid": "70", "appid": "1135690" }
+      ]
+    }
   }
 ]
