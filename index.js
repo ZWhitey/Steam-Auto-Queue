@@ -1,36 +1,34 @@
-const AutoCard = require('./autocard.js');
-const remain = parseInt(process.argv[2], 10) || 1;
+const SteamUser = require('./user.js');
 
-main();
-async function main() {
+
+(async () => {
   try {
-    var User = require('./config.json');
+    const User = require('./config.json');
     for (let i of User) {
       await getClient(i);
-      await sleep(7);
+      await sleep(7); // sleep prevent steam temporary ban connection
     }
 
   }
   catch (err) {
     if (err.message.search('Cannot find module') != -1) {
       console.log('No config file, using standard input');
-      new AutoCard();
+      new SteamUser();
     }
     else {
       console.error(err.message);
     }
   }
-}
+})();
 
-
-async function getClient(data) {
+function getClient(data) {
   return new Promise(resolve => {
-    new AutoCard(data, remain);
+    new SteamUser(data);
     resolve();
   })
 }
 
-async function sleep(second) {
+function sleep(second) {
   return new Promise(resolve => {
     setTimeout(resolve, second * 1000);
   })

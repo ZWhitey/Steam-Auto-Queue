@@ -1,0 +1,7 @@
+[
+  {
+    "name": "autocard",
+    "script": "autocard.js",
+    "enable": true
+  }
+]
