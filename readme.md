@@ -11,6 +11,8 @@ This script can help you finish Steam events automatically.
 # Plugins & Support Event
 1. autocard
     * discovery queue in summer / winter sales
+2. autovote
+    * vote steam awards
 
 # Tested Event 
 1. autocard 
@@ -19,6 +21,9 @@ This script can help you finish Steam events automatically.
     * Winter sales 2020
     * Summer sales 2021
     * Winter sales 2021
+
+2. autovote
+    * Steam awards 2021
 
 # Installation
 
@@ -76,8 +81,11 @@ Config file format:
 ]
 ```
 
+# Custom plugins
+    check out [here]()
+
 # Todo
 
 1. Rewrite other scripts I have created to plugin. 
     1. [steam-auto-spring-cleaning](https://github.com/ZWhitey/steam-auto-spring-cleaning)
-    2. auto vote steam award
+
