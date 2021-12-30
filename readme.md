@@ -1,13 +1,23 @@
 # Steam Auto Queue
 
-This script can help you finish Steam Discovery Queue automatically.
+This script can help you finish Steam events automatically.
+
+# What's new in v2
+
+* Plugins support
+I used to create a new scripts to every new event, until I found steam reuse event every year, you only need to change some parameter to finish new event, so I decide to rewrite my scripts to plugins and use config file to give parameter.
+
+# Plugins & Support Event
+1. autocard
+    * discovery queue in summer / winter sales
 
 # Tested Event 
-1. Winter sales 2019
-2. Summer sales 2020
-3. Winter sales 2020
-4. Summer sales 2021
-5. Winter sales 2021
+1. autocard 
+    * Winter sales 2019
+    * Summer sales 2020
+    * Winter sales 2020
+    * Summer sales 2021
+    * Winter sales 2021
 
 # Installation
 
@@ -67,4 +77,6 @@ Config file format:
 
 # Todo
 
-~~1. Support multiple account~~
+1. Rewrite other scripts I have created to plugin. 
+    1. [steam-auto-spring-cleaning](https://github.com/ZWhitey/steam-auto-spring-cleaning)
+    2. auto vote steam award

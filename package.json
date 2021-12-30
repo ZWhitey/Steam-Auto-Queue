@@ -1,7 +1,7 @@
 {
   "name": "steam-auto-queue",
-  "version": "1.2.0",
-  "description": "Auto finish steam discovery queue",
+  "version": "2.0.0",
+  "description": "Auto finish steam events, like discovery queue, vote steam awards, etc.",
   "main": "index.js",
   "dependencies": {
     "prompt-sync": "^4.2.0",
@@ -18,7 +18,10 @@
     "bot",
     "steam",
     "card",
-    "queue"
+    "queue",
+    "sales",
+    "winter sales",
+    "steam awards"
   ],
   "author": "Whitey",
   "license": "ISC",
