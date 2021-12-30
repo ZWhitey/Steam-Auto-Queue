@@ -5,7 +5,8 @@ This script can help you finish Steam events automatically.
 # What's new in v2
 
 * Plugins support
-I used to create a new scripts to every new event, until I found steam reuse event every year, you only need to change some parameter to finish new event, so I decide to rewrite my scripts to plugins and use config file to give parameter.
+
+   I used to create a new scripts to every new event, until I found steam reuse event every year, you only need to change some parameter to finish new event, so I decide to rewrite my scripts to plugins and use config file to give parameter.
 
 # Plugins & Support Event
 1. autocard
