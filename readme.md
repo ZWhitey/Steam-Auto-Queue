@@ -13,6 +13,8 @@ This script can help you finish Steam events automatically.
     * discovery queue in summer / winter sales
 2. autovote
     * vote steam awards
+3. steam racing 2022
+    * get `2022 Steam Racing Fest Cup` badge
 
 # Tested Event 
 1. autocard 
@@ -24,6 +26,8 @@ This script can help you finish Steam events automatically.
 
 2. autovote
     * Steam awards 2021
+
+3. steam racing 2022
 
 # Installation
 
@@ -82,7 +86,7 @@ Config file format:
 ```
 
 # Custom plugins
-check out [here](https://github.com/ZWhitey/Steam-Auto-Queue/blob/master/docs/plugins.md)
+    check out [here](https://github.com/ZWhitey/Steam-Auto-Queue/blob/master/docs/plugins.md)
 
 # Todo
 

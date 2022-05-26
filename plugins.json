@@ -7,7 +7,7 @@
   {
     "name": "steam-awards-2021",
     "script": "autovote.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "votes": [
       { "voteid": "61", "appid": "892970" },
@@ -22,5 +22,10 @@
       { "voteid": "70", "appid": "1135690" }
       ]
     }
+  },
+  {
+    "name": "steam-racing-2022",
+    "script": "steam_racing.js",
+    "enable": true
   }
 ]
