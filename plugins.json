@@ -26,6 +26,11 @@
   {
     "name": "steam-racing-2022",
     "script": "steam_racing.js",
+    "enable": false
+  },
+  {
+    "name": "clorthax-quest-2022",
+    "script": "clorthax_quest.js",
     "enable": true
   }
 ]
