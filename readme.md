@@ -23,11 +23,14 @@ This script can help you finish Steam events automatically.
     * Winter sales 2020
     * Summer sales 2021
     * Winter sales 2021
+    * Summer sales 2022
 
 2. autovote
     * Steam awards 2021
 
 3. steam racing 2022
+
+4. clorthax quest (summer sales 2022 event)
 
 # Installation
 
