@@ -92,7 +92,7 @@ Config file format:
 ```
 
 # Custom plugins
-    check out [here](https://github.com/ZWhitey/Steam-Auto-Queue/blob/master/docs/plugins.md)
+   check out [here](https://github.com/ZWhitey/Steam-Auto-Queue/blob/master/docs/plugins.md)
 
 # Todo
 
