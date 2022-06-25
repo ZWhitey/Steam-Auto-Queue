@@ -15,6 +15,9 @@ This script can help you finish Steam events automatically.
     * vote steam awards
 3. steam racing 2022
     * get `2022 Steam Racing Fest Cup` badge
+4. clorthax quest
+    * get `Clorthax's Paradox Party` Badge
+    * get Steam 3000 `Profile Modifier` , `Profile Background`, `Mini Profile Background`, `Avatar Profile Frame`, `Animated Avatar` and `Stickers`
 
 # Tested Event 
 1. autocard 
