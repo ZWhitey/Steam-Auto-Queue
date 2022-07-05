@@ -16,7 +16,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
   schedule:
-    - cron: '41 19 * * 0'
+    - cron: '40 7 * * 2'
 
 jobs:
   eslint:
@@ -32,10 +32,13 @@ jobs:
       - name: Install ESLint
         run: |
           npm install eslint@8.10.0
+          npm install @microsoft/eslint-formatter-sarif@2.1.7
+
       - name: Run ESLint
         run: npx eslint .
           --config .eslintrc.js
           --ext .js
+          --format @microsoft/eslint-formatter-sarif 
           --output-file eslint-results.sarif
         continue-on-error: true
 
