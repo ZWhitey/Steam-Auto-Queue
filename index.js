@@ -25,11 +25,11 @@ function getClient(data) {
   return new Promise(resolve => {
     new SteamUser(data);
     resolve();
-  })
+  });
 }
 
 function sleep(second) {
   return new Promise(resolve => {
     setTimeout(resolve, second * 1000);
-  })
+  });
 }

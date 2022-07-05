@@ -20,16 +20,16 @@ module.exports = async function (plugin) {
   };
   await post('https://store.steampowered.com/saleaction/ajaxopendoor', payload);
   const links = [
-    "https://store.steampowered.com/category/arcade_rhythm/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/strategy_cities_settlements/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/sports/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/simulation/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/multiplayer_coop/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/casual/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/rpg/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/horror/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/vr/?snr=1_614_615_clorthaxquest_1601",
-    "https://store.steampowered.com/category/strategy/?snr=1_614_615_clorthaxquest_1601",
+    'https://store.steampowered.com/category/arcade_rhythm/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/strategy_cities_settlements/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/sports/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/simulation/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/multiplayer_coop/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/casual/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/rpg/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/horror/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/vr/?snr=1_614_615_clorthaxquest_1601',
+    'https://store.steampowered.com/category/strategy/?snr=1_614_615_clorthaxquest_1601',
   ];
   for (let link of links) {
     try {
@@ -49,7 +49,7 @@ module.exports = async function (plugin) {
     }
 
     catch (e) {
-      console.error("Failed to obtain badge!", e);
+      console.error('Failed to obtain badge!', e);
     } finally {
       await sleep(2000);
     }
@@ -60,7 +60,7 @@ module.exports = async function (plugin) {
     door_index: 11,
     clan_accountid: 39049601,
   });
-}
+};
 
 function postPromise(url, data) {
   return new Promise((resolve, reject) => {
