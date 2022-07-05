@@ -3,7 +3,7 @@ module.exports = {
     'browser': true,
     'commonjs': true,
     'es2021': true,
-    'process': true,
+    'node': true,
   },
   'extends': 'eslint:recommended',
   'parserOptions': {
@@ -25,6 +25,9 @@ module.exports = {
     'semi': [
       'error',
       'always'
+    ],
+    'no-unused-vars': [
+      'warn'
     ]
   }
 };
