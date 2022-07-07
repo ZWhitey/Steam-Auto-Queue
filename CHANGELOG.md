@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.2.0 - JUL 7, 2022
+
+* Reduce delay time from 7 seconds to 5 seconds
+* Reuse cookie for skip login process
+    * Now manual login user (without shared_secret) only need to enter auth code at first time, unless your cookie expired
+
 ## v2.1.0 - JUL 7, 2022
 
 * Improve login flow for manual login

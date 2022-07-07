@@ -48,7 +48,7 @@ This script can help you finish Steam events automatically.
 1. Run script `node index.js`
 2. Follow instructions enter your account, password and 2FA code
 3. Wait a second
-4. You have got your cards
+4. You have got your rewards
 
 # Advenced Usage (for fully automatic and multiple accounts)
 
@@ -56,7 +56,7 @@ This script can help you finish Steam events automatically.
 2. Edit `account`, `password` and `shared_secret` in `config.json`
 3. Run script `node index.js`
 4. Wait a minute
-5. You have got your cards
+5. You have got your rewards
 
 # What is shared_secret
 
