@@ -10,16 +10,16 @@ module.exports = function (plugin) {
   return new Promise((resolve, reject) => {
     this.community.request.post({ url: 'https://store.steampowered.com/explore/generatenewdiscoveryqueue', form: { 'sessionid': this.community.getSessionID(), queuetype: 0 } }, (err, res, body) => {
       if (err) {
-        console.error(`[${this.data.account}]`, err.message);
-        return reject();
+        console.error(`[${this.data.account}]`, 'init queue failed', err.message);
+        return reject(err);
       }
       if (!body) {
-        console.error(`[${this.data.account}]`, res.statusCode);
-        return reject();
+        console.error(`[${this.data.account}]`, 'request without body', res.statusCode);
+        return reject('request without body');
       }
       if (res.statusCode !== 200) {
-        console.error(`[${this.data.account}] ${res.statusCode} ${res.statusMessage}`);
-        return reject();
+        console.error(`[${this.data.account}] status code: ${res.statusCode} status message: ${res.statusMessage}`);
+        return reject('status code not 200');
       }
       try {
         var data = JSON.parse(body);
