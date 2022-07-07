@@ -6,7 +6,7 @@ const SteamUser = require('./user.js');
     const User = require('./config.json');
     for (let i of User) {
       await getClient(i);
-      await sleep(7); // sleep prevent steam temporary ban connection
+      await sleep(5); // sleep prevent steam temporary ban connection
     }
 
   }
