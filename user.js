@@ -7,6 +7,7 @@ const storage = new Storage();
 
 module.exports = class SteamUser {
   constructor(data) {
+    this.end = false;
     this.mods = {};
     this.data = data ? data : {};
     this.community = new SteamCommunity();
@@ -74,6 +75,7 @@ module.exports = class SteamUser {
         }
       }
     }
+    this.end = true;
   }
 
   login(loginData) {

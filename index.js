@@ -23,8 +23,13 @@ const SteamUser = require('./user.js');
 
 function getClient(data) {
   return new Promise(resolve => {
-    new SteamUser(data);
-    resolve();
+    const user = new SteamUser(data);
+    const timer = setInterval(() => {
+      if (user.end) {
+        clearInterval(timer);
+        resolve();
+      }
+    }, 250);
   });
 }
 
