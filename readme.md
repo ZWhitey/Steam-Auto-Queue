@@ -21,6 +21,9 @@ This script can help you finish Steam events automatically.
     * get `Clorthax's Paradox Party` Badge
     * get Steam 3000 `Profile Modifier` , `Profile Background`, `Mini Profile Background`, `Avatar Profile Frame`, `Animated Avatar` and `Stickers`
 
+5. Next Fest October 2022
+    * get level 6 `2022 Steam Next Fest October Edition` Badge
+
 # Tested Event 
 1. autocard 
     * Winter sales 2019
@@ -36,6 +39,8 @@ This script can help you finish Steam events automatically.
 3. steam racing 2022
 
 4. clorthax quest (summer sales 2022 event)
+
+5. Next Fest October 2022
 
 # Installation
 
