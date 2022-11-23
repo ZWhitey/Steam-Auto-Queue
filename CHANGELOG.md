@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.4.0 - NOV 23, 2022
+
+* add plugin for steam awards 2022 nominate
+
+## v2.3.0 - OCT 5, 2022
+
+* add plugin for steam next fest queue
+* fix next user run script before current user finish
+
 ## v2.2.0 - JUL 7, 2022
 
 * Reduce delay time from 7 seconds to 5 seconds

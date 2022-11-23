@@ -24,8 +24,11 @@ This script can help you finish Steam events automatically.
 5. Next Fest October 2022
     * get level 6 `2022 Steam Next Fest October Edition` Badge
 
-# Tested Event 
-1. autocard 
+6. Steam awards 2022
+    * get level 2 `Steam Awards Nomination Committee 2022` Badge
+
+# Tested Event
+1. autocard
     * Winter sales 2019
     * Summer sales 2020
     * Winter sales 2020
@@ -41,6 +44,8 @@ This script can help you finish Steam events automatically.
 4. clorthax quest (summer sales 2022 event)
 
 5. Next Fest October 2022
+
+6. Steam awards 2022
 
 # Installation
 
@@ -103,6 +108,6 @@ Config file format:
 
 # Todo
 
-1. Rewrite other scripts I have created to plugin. 
+1. Rewrite other scripts I have created to plugin.
     1. [steam-auto-spring-cleaning](https://github.com/ZWhitey/steam-auto-spring-cleaning)
 
