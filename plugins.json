@@ -36,6 +36,26 @@
   {
     "name": "next-fest-2022",
     "script": "steam_nextfest.js",
-    "enable": true
+    "enable": false
+  },
+  {
+    "name": "steam-awards-2022",
+    "script": "steam_awards.js",
+    "enable": true,
+    "data": {
+      "nominates": [
+      { "nominatedid": "1332010", "categoryid": "72" },
+      { "nominatedid": "1692250", "categoryid": "73" },
+      { "nominatedid": "440", "categoryid": "74" },
+      { "nominatedid": "1604030", "categoryid": "75" },
+      { "nominatedid": "534380", "categoryid": "76" },
+      { "nominatedid": "1817070", "categoryid": "77" },
+      { "nominatedid": "1245620", "categoryid": "78" },
+      { "nominatedid": "1372110", "categoryid": "79" },
+      { "nominatedid": "1593500", "categoryid": "80" },
+      { "nominatedid": "1702330", "categoryid": "81" },
+      { "nominatedid": "1862520", "categoryid": "82"}
+      ]
+    }
   }
 ]
