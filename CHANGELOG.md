@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.5.0 - DEC 23, 2022
+
+* add steam awards 2022 auto vote
+
 ## v2.4.0 - NOV 23, 2022
 
 * add plugin for steam awards 2022 nominate
