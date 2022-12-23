@@ -14,7 +14,9 @@ This script can help you finish Steam events automatically.
 1. autocard
     * discovery queue in summer / winter sales
 2. autovote
-    * vote steam awards
+    * vote steam awards 2021
+    * vote steam awards 2022
+
 3. steam racing 2022
     * get `2022 Steam Racing Fest Cup` badge
 4. clorthax quest
@@ -35,9 +37,11 @@ This script can help you finish Steam events automatically.
     * Summer sales 2021
     * Winter sales 2021
     * Summer sales 2022
+    * Winter sales 2022
 
 2. autovote
     * Steam awards 2021
+    * Steam awards 2022
 
 3. steam racing 2022
 

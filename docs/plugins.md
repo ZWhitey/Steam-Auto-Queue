@@ -75,6 +75,21 @@ Steam awards 2021 got 10 awards need to vote, each awards got their own `voteid`
 69 -> OUTSTANDING STORY-RICH GAME
 70 -> SIT BACK AND RELAX
 ```
+
+Steam awards 2022 got 11 awards need to vote, each awards got their own `voteid`.
+```
+72 -> GAME OF THE YEAR AWARD
+73 -> VR GAME OF THE YEAR AWARD
+74 -> LABOR OF LOVE AWARD
+75 -> BETTER WITH FRIENDS AWARD
+76 -> OUTSTANDING VISUAL STYLE AWARD
+77 -> MOST INNOVATIVE GAMEPLAY AWARD
+78 -> BEST GAME YOU SUCK AT AWARD
+79 -> BEST SOUNDTRACK AWARD
+80 -> OUTSTANDING STORY-RICH GAME AWARD
+81 -> SIT BACK AND RELAX AWARD
+82 -> BEST GAME ON THE GO AWARD
+```
 You can custom your vote by change appid to which game you want to vote.
 
 ## Steam awards 2022
