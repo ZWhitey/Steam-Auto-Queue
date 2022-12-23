@@ -41,7 +41,7 @@
   {
     "name": "steam-awards-2022",
     "script": "steam_awards.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "nominates": [
       { "nominatedid": "1332010", "categoryid": "72" },
@@ -55,6 +55,26 @@
       { "nominatedid": "1593500", "categoryid": "80" },
       { "nominatedid": "1702330", "categoryid": "81" },
       { "nominatedid": "1862520", "categoryid": "82"}
+      ]
+    }
+  },
+  {
+    "name": "steam-awards-2022-vote",
+    "script": "autovote.js",
+    "enable": true,
+    "data": {
+      "votes": [
+      { "voteid": "72", "appid": "1245620" },
+      { "voteid": "73", "appid": "1659040" },
+      { "voteid": "74", "appid": "570" },
+      { "voteid": "75", "appid": "1938090" },
+      { "voteid": "76", "appid": "698670" },
+      { "voteid": "77", "appid": "1332010" },
+      { "voteid": "78", "appid": "1245620" },
+      { "voteid": "79", "appid": "1061910" },
+      { "voteid": "80", "appid": "1593500" },
+      { "voteid": "81", "appid": "1290000" },
+      { "voteid": "82", "appid": "1794680" }
       ]
     }
   }
