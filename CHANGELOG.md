@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.5.1 - JUL 01, 2023
+
+* fix getting malformed response (update package)
+* update sleep time for steam request restriction
+
 ## v2.5.0 - DEC 23, 2022
 
 * add steam awards 2022 auto vote
