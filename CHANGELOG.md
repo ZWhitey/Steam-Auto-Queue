@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.6.0 - JUL 01, 2023
+
+* add steam summer sale 2023 get sticker
+
 ## v2.5.1 - JUL 01, 2023
 
 * fix getting malformed response (update package)
