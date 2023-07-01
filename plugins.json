@@ -61,7 +61,7 @@
   {
     "name": "steam-awards-2022-vote",
     "script": "autovote.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "votes": [
       { "voteid": "72", "appid": "1245620" },
@@ -77,5 +77,10 @@
       { "voteid": "82", "appid": "1794680" }
       ]
     }
+  },
+  {
+    "name": "summer-sticker-2023",
+    "script": "summer_sticker.js",
+    "enable": true
   }
 ]
