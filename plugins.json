@@ -81,6 +81,26 @@
   {
     "name": "summer-sticker-2023",
     "script": "summer_sticker.js",
-    "enable": true
+    "enable": false
+  },
+  {
+    "name": "steam-awards-2023",
+    "script": "steam_awards_2023.js",
+    "enable": true,
+    "data": {
+      "nominates": [
+      { "encoded_data": "CFoQ2pmHARgA" },
+      { "encoded_data": "CFsQ2pmHARgA" },
+      { "encoded_data": "CFwQuAMYBg%3D%3D" },
+      { "encoded_data": "CF0Q2pmHARgA" },
+      { "encoded_data": "CF4Q2pmHARgA" },
+      { "encoded_data": "CF8Q2pmHARgA" },
+      { "encoded_data": "CGAQ2pmHARgA" },
+      { "encoded_data": "CGEQ2pmHARgA" },
+      { "encoded_data": "CGIQ2pmHARgA" },
+      { "encoded_data": "CGMQ2pmHARgA" },
+      { "encoded_data": "CGQQ2pmHARgA" }
+      ]
+    }
   }
 ]

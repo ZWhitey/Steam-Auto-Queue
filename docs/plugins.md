@@ -128,3 +128,40 @@ Steam awards 2022 got 11 awards need to nominate, each awards got their own `nom
 82 -> BEST GAME ON THE GO AWARD
 ```
 You can custom your nominate by change appid to which game you want to vote.
+
+## Steam awards 2023
+
+Default parameter:
+```json
+"data": {
+      "nominates": [
+      { "encoded_data": "CFoQ2pmHARgA" }, 
+      { "encoded_data": "CFsQ2pmHARgA" },
+      { "encoded_data": "CFwQuAMYBg%3D%3D" },
+      { "encoded_data": "CF0Q2pmHARgA" },
+      { "encoded_data": "CF4Q2pmHARgA" },
+      { "encoded_data": "CF8Q2pmHARgA" },
+      { "encoded_data": "CGAQ2pmHARgA" },
+      { "encoded_data": "CGEQ2pmHARgA" },
+      { "encoded_data": "CGIQ2pmHARgA" },
+      { "encoded_data": "CGMQ2pmHARgA" },
+      { "encoded_data": "CGQQ2pmHARgA" }
+      ]
+    }
+```
+
+Steam awards 2023 got 11 awards need to nominate.
+
+1. Game of the Year Award - skip nominate
+2. VR Game of the Year Award - skip nominate
+3. Labor of Love Award - Team Fortress 2
+4. Best Game on Steam Deck Award - skip nominate
+5. Better With Friends Award - skip nominate
+6. Outstanding Visual Style Award - skip nominate
+7. Most Innovative Gameplay Award - skip nominate
+8. Best Game You Suck At Award - skip nominate
+9. Best Soundtrack Award - skip nominate
+10. Outstanding Story-Rich Game Award - skip nominate
+11. Sit Back and Relax Award - skip nominate
+
+You can custom your nominate by change encoded_data to which game you want to vote. encode_data can be found in broswer devtools after nominate a game.
