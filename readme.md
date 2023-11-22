@@ -32,6 +32,9 @@ This script can help you finish Steam events automatically.
 7. Steam summer sale 2023 sticker
     * get summer sale sticker
 
+8. Steam awards 2023
+    * get level 2 `Steam Awards Nomination Committee 2023` Badge
+
 # Tested Event
 1. autocard
     * Winter sales 2019
@@ -54,6 +57,8 @@ This script can help you finish Steam events automatically.
 5. Next Fest October 2022
 
 6. Steam awards 2022
+
+7. Steam awards 2023
 
 # Installation
 

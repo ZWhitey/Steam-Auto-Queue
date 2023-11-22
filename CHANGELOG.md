@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.7.0 - NOV 22, 2023
+
+* add plugin for steam awards 2023
+
 ## v2.6.0 - JUL 01, 2023
 
 * add steam summer sale 2023 get sticker
