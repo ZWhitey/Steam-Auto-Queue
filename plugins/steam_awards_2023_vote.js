@@ -30,11 +30,11 @@ module.exports = async function (plugin) {
   console.info(`[${this.data.account}]: Start voting`);
   const { votes } = plugin.data;
   const token = await getAccessToken();
-  const nominateApp = vote.bind(this);
+  const voteApp = vote.bind(this);
   for (let i = 0; i < votes.length; i += 1) {
     console.log(`[${this.data.account}]: Voting ${i + 1} / ${votes.length}`);
     try {
-      await nominateApp(token, votes[i].encoded_data);
+      await voteApp(token, votes[i].encoded_data);
     } catch (err) {
       console.log(err);
       throw err;
