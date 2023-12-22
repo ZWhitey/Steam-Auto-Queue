@@ -165,3 +165,40 @@ Steam awards 2023 got 11 awards need to nominate.
 11. Sit Back and Relax Award - skip nominate
 
 You can custom your nominate by change encoded_data to which game you want to vote. encode_data can be found in broswer devtools after nominate a game.
+
+## Steam awards 2023 vote
+
+Default parameter:
+```json
+"data": {
+      "votes": [
+        { "encoded_data": "CFoQ3KtCGKKToQE=" },
+        { "encoded_data": "CFsQvJSMARiik6EB" },
+        { "encoded_data": "CFwQyrQPGKKToQE=" },
+        { "encoded_data": "CF0Q4tJPGKKToQE=" },
+        { "encoded_data": "CF4Qsv9+GKKToQE=" },
+        { "encoded_data": "CF8QpOcoGKKToQE=" },
+        { "encoded_data": "CGAQtKBOGKKToQE=" },
+        { "encoded_data": "CGEQrKZTGKKToQE=" },
+        { "encoded_data": "CGIQmpmIARiik6EB" },
+        { "encoded_data": "CGMQ3KtCGKKToQE=" },
+        { "encoded_data": "CGQQkNhGGKKToQE=" }
+      ]
+    }
+```
+
+Steam awards 2023 got 11 awards need to vote.
+
+1. Game of the Year Award - Baldurs Gate 3
+2. VR Game of the Year Award - I Expect You To Die 3 Cog in the Machine
+3. Labor of Love Award - Rust
+4. Best Game on Steam Deck Award - The Outlast Trials
+5. Better With Friends Award - Sunkenland
+6. Outstanding Visual Style Award - Atomic Heart
+7. Most Innovative Gameplay Award - Remnant II
+8. Best Game You Suck At Award - Street Fighter_6
+9. Best Soundtrack Award - Pizza Tower
+10. Outstanding Story-Rich Game Award - Baldurs Gate 3
+11. Sit Back and Relax Award - Coral Island
+
+You can custom your vote by change encoded_data to which game you want to vote. encode_data can be found in broswer devtools after vote a game.
