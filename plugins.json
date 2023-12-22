@@ -86,7 +86,7 @@
   {
     "name": "steam-awards-2023",
     "script": "steam_awards_2023.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "nominates": [
       { "encoded_data": "CFoQ2pmHARgA" },
@@ -100,6 +100,26 @@
       { "encoded_data": "CGIQ2pmHARgA" },
       { "encoded_data": "CGMQ2pmHARgA" },
       { "encoded_data": "CGQQ2pmHARgA" }
+      ]
+    }
+  },
+  {
+    "name": "steam-awards-2023-vote",
+    "script": "steam_awards_2023_vote.js",
+    "enable": true,
+    "data": {
+      "votes": [
+        { "encoded_data": "CFoQ3KtCGKKToQE=" },
+        { "encoded_data": "CFsQvJSMARiik6EB" },
+        { "encoded_data": "CFwQyrQPGKKToQE=" },
+        { "encoded_data": "CF0Q4tJPGKKToQE=" },
+        { "encoded_data": "CF4Qsv9+GKKToQE=" },
+        { "encoded_data": "CF8QpOcoGKKToQE=" },
+        { "encoded_data": "CGAQtKBOGKKToQE=" },
+        { "encoded_data": "CGEQrKZTGKKToQE=" },
+        { "encoded_data": "CGIQmpmIARiik6EB" },
+        { "encoded_data": "CGMQ3KtCGKKToQE=" },
+        { "encoded_data": "CGQQkNhGGKKToQE=" }
       ]
     }
   }
