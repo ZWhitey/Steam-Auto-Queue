@@ -48,6 +48,8 @@ This script can help you finish Steam events automatically.
     * Summer sales 2022
     * Winter sales 2022
     * Summer sales 2023
+    * Winter sales 2023
+    * Summer sales 2024
 
 2. autovote
     * Steam awards 2021
