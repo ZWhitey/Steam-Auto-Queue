@@ -1,13 +1,13 @@
 {
   "name": "steam-auto-queue",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "description": "Auto finish steam events, like discovery queue, vote steam awards, etc.",
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "prompt-sync": "^4.2.0",
     "steam-totp": "^2.1.2",
-    "steamcommunity": "^3.47.1"
+    "steamcommunity": "^3.48.3"
   },
   "devDependencies": {
     "eslint": "^8.18.0"

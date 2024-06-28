@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.9.0 JUN 28, 2024
+* fix run plugin with 401 Unauthorized error
+
+## v2.8.0 DEC 22, 2023
+* add plugin for steam award 2023 vote
+
 ## v2.7.0 - NOV 22, 2023
 
 * add plugin for steam awards 2023
