@@ -5,8 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "lodash": "^4.17.21",
     "prompt-sync": "^4.2.0",
     "steam-totp": "^2.1.2",
+    "steam-user": "^5.0.10",
     "steamcommunity": "^3.48.3"
   },
   "devDependencies": {

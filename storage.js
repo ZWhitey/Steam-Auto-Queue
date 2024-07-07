@@ -1,34 +1,39 @@
 const fs = require('fs');
 const DB_FILE = './cookies.db';
+const REFRESH_FILE = './refresh.db';
 
 module.exports = class Storage {
-
   constructor() {
     try {
-      this.db = fs.existsSync(DB_FILE) ? JSON.parse(fs.readFileSync(DB_FILE)) : {};
+      if (fs.existsSync(DB_FILE)) {
+        console.log('[storage] find deprecated db file, remove it');
+        fs.unlinkSync(DB_FILE);
+      }
+      this.refresh = fs.existsSync(REFRESH_FILE)
+        ? JSON.parse(fs.readFileSync(REFRESH_FILE))
+        : {};
     } catch (err) {
       console.error('[storage] load db file failed, clear db file');
-      this.db = {};
+      this.refresh = {};
       this.saveToFile();
     }
   }
 
-  saveCookie(user, cookie) {
-    this.db[user] = cookie;
+  saveRefreshToken(user, token) {
+    this.refresh[user] = token;
     this.saveToFile();
   }
 
-  removeCookie(user) {
-    delete this.db[user];
+  removeRefreshToken(user) {
+    delete this.refresh[user];
     this.saveToFile();
   }
 
-  getCookie(user) {
-    return this.db[user];
+  getRefreshToken(user) {
+    return this.refresh[user];
   }
 
   saveToFile() {
-    fs.writeFileSync(DB_FILE, JSON.stringify(this.db));
+    fs.writeFileSync(REFRESH_FILE, JSON.stringify(this.refresh));
   }
-
 };
