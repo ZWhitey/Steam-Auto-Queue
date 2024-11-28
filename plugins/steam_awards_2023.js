@@ -8,18 +8,22 @@ const cheerio = require('cheerio');
  * @param {object} plugin.data # data you want to pass to the script
  */
 module.exports = async function (plugin) {
-
   const getAccessToken = () => {
     return new Promise((resolve, reject) => {
-      this.community.request.get('https://store.steampowered.com/steamawards/nominations', (err, res, body) => {
-        if (err) {
-          console.error(err);
-          return reject(err);
+      this.community.request.get(
+        'https://store.steampowered.com/steamawards/nominations',
+        (err, res, body) => {
+          if (err) {
+            console.error(err);
+            return reject(err);
+          }
+          const $ = cheerio.load(body);
+          const accessToken = JSON.parse(
+            $('#application_config').attr('data-store_user_config')
+          ).webapi_token;
+          return resolve(accessToken);
         }
-        const $ = cheerio.load(body);
-        const accessToken = JSON.parse($('#application_config').attr('data-store_user_config')).webapi_token;
-        return resolve(accessToken);
-      });
+      );
     });
   };
 
@@ -28,12 +32,14 @@ module.exports = async function (plugin) {
   const token = await getAccessToken();
   const nominateApp = nominate.bind(this);
   for (let i = 0; i < nominates.length; i += 1) {
-    console.log(`[${this.data.account}]: Nominating ${i + 1} / ${nominates.length}`);
+    console.log(
+      `[${this.data.account}]: Nominating ${i + 1} / ${nominates.length}`
+    );
     try {
       await nominateApp(token, nominates[i].encoded_data);
     } catch (err) {
       console.log(err);
-      throw(err);
+      throw err;
     }
   }
   return;
@@ -44,11 +50,11 @@ module.exports = async function (plugin) {
       this.community.request.get(url, (err, res, body) => {
         if (err) {
           console.error(`[${this.data.account}]`, err.message);
-          reject();
+          return reject(err);
         }
-        if (!body) {
+        if (res.statusCode != 200) {
           console.error(`[${this.data.account}]`, res.statusCode);
-          reject();
+          return reject(new Error('statusCode is not 200'));
         }
         resolve();
       });

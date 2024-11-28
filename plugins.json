@@ -10,16 +10,16 @@
     "enable": false,
     "data": {
       "votes": [
-      { "voteid": "61", "appid": "892970" },
-      { "voteid": "62", "appid": "1358140" },
-      { "voteid": "63", "appid": "570" },
-      { "voteid": "64", "appid": "892970" },
-      { "voteid": "65", "appid": "1551360" },
-      { "voteid": "66", "appid": "1097200" },
-      { "voteid": "67", "appid": "1325200" },
-      { "voteid": "68", "appid": "1382330" },
-      { "voteid": "69", "appid": "1091500" },
-      { "voteid": "70", "appid": "1135690" }
+        { "voteid": "61", "appid": "892970" },
+        { "voteid": "62", "appid": "1358140" },
+        { "voteid": "63", "appid": "570" },
+        { "voteid": "64", "appid": "892970" },
+        { "voteid": "65", "appid": "1551360" },
+        { "voteid": "66", "appid": "1097200" },
+        { "voteid": "67", "appid": "1325200" },
+        { "voteid": "68", "appid": "1382330" },
+        { "voteid": "69", "appid": "1091500" },
+        { "voteid": "70", "appid": "1135690" }
       ]
     }
   },
@@ -44,17 +44,17 @@
     "enable": false,
     "data": {
       "nominates": [
-      { "nominatedid": "1332010", "categoryid": "72" },
-      { "nominatedid": "1692250", "categoryid": "73" },
-      { "nominatedid": "440", "categoryid": "74" },
-      { "nominatedid": "1604030", "categoryid": "75" },
-      { "nominatedid": "534380", "categoryid": "76" },
-      { "nominatedid": "1817070", "categoryid": "77" },
-      { "nominatedid": "1245620", "categoryid": "78" },
-      { "nominatedid": "1372110", "categoryid": "79" },
-      { "nominatedid": "1593500", "categoryid": "80" },
-      { "nominatedid": "1702330", "categoryid": "81" },
-      { "nominatedid": "1862520", "categoryid": "82"}
+        { "nominatedid": "1332010", "categoryid": "72" },
+        { "nominatedid": "1692250", "categoryid": "73" },
+        { "nominatedid": "440", "categoryid": "74" },
+        { "nominatedid": "1604030", "categoryid": "75" },
+        { "nominatedid": "534380", "categoryid": "76" },
+        { "nominatedid": "1817070", "categoryid": "77" },
+        { "nominatedid": "1245620", "categoryid": "78" },
+        { "nominatedid": "1372110", "categoryid": "79" },
+        { "nominatedid": "1593500", "categoryid": "80" },
+        { "nominatedid": "1702330", "categoryid": "81" },
+        { "nominatedid": "1862520", "categoryid": "82" }
       ]
     }
   },
@@ -64,17 +64,17 @@
     "enable": false,
     "data": {
       "votes": [
-      { "voteid": "72", "appid": "1245620" },
-      { "voteid": "73", "appid": "1659040" },
-      { "voteid": "74", "appid": "570" },
-      { "voteid": "75", "appid": "1938090" },
-      { "voteid": "76", "appid": "698670" },
-      { "voteid": "77", "appid": "1332010" },
-      { "voteid": "78", "appid": "1245620" },
-      { "voteid": "79", "appid": "1061910" },
-      { "voteid": "80", "appid": "1593500" },
-      { "voteid": "81", "appid": "1290000" },
-      { "voteid": "82", "appid": "1794680" }
+        { "voteid": "72", "appid": "1245620" },
+        { "voteid": "73", "appid": "1659040" },
+        { "voteid": "74", "appid": "570" },
+        { "voteid": "75", "appid": "1938090" },
+        { "voteid": "76", "appid": "698670" },
+        { "voteid": "77", "appid": "1332010" },
+        { "voteid": "78", "appid": "1245620" },
+        { "voteid": "79", "appid": "1061910" },
+        { "voteid": "80", "appid": "1593500" },
+        { "voteid": "81", "appid": "1290000" },
+        { "voteid": "82", "appid": "1794680" }
       ]
     }
   },
@@ -89,24 +89,24 @@
     "enable": false,
     "data": {
       "nominates": [
-      { "encoded_data": "CFoQ2pmHARgA" },
-      { "encoded_data": "CFsQ2pmHARgA" },
-      { "encoded_data": "CFwQuAMYBg%3D%3D" },
-      { "encoded_data": "CF0Q2pmHARgA" },
-      { "encoded_data": "CF4Q2pmHARgA" },
-      { "encoded_data": "CF8Q2pmHARgA" },
-      { "encoded_data": "CGAQ2pmHARgA" },
-      { "encoded_data": "CGEQ2pmHARgA" },
-      { "encoded_data": "CGIQ2pmHARgA" },
-      { "encoded_data": "CGMQ2pmHARgA" },
-      { "encoded_data": "CGQQ2pmHARgA" }
+        { "encoded_data": "CFoQ2pmHARgA" },
+        { "encoded_data": "CFsQ2pmHARgA" },
+        { "encoded_data": "CFwQuAMYBg%3D%3D" },
+        { "encoded_data": "CF0Q2pmHARgA" },
+        { "encoded_data": "CF4Q2pmHARgA" },
+        { "encoded_data": "CF8Q2pmHARgA" },
+        { "encoded_data": "CGAQ2pmHARgA" },
+        { "encoded_data": "CGEQ2pmHARgA" },
+        { "encoded_data": "CGIQ2pmHARgA" },
+        { "encoded_data": "CGMQ2pmHARgA" },
+        { "encoded_data": "CGQQ2pmHARgA" }
       ]
     }
   },
   {
     "name": "steam-awards-2023-vote",
     "script": "steam_awards_2023_vote.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "votes": [
         { "encoded_data": "CFoQ3KtCGKKToQE=" },
@@ -120,6 +120,26 @@
         { "encoded_data": "CGIQmpmIARiik6EB" },
         { "encoded_data": "CGMQ3KtCGKKToQE=" },
         { "encoded_data": "CGQQkNhGGKKToQE=" }
+      ]
+    }
+  },
+  {
+    "name": "steam-awards-2024",
+    "script": "steam_awards_2023.js",
+    "enable": true,
+    "data": {
+      "nominates": [
+        { "encoded_data": "CG4Q2pmHARgA" },
+        { "encoded_data": "CFsQ2pmHARgA" },
+        { "encoded_data": "CFsQ2pmHARgA" },
+        { "encoded_data": "CF0Q2pmHARgA" },
+        { "encoded_data": "CF4Q2pmHARgA" },
+        { "encoded_data": "CF8Q2pmHARgA" },
+        { "encoded_data": "CGAQ2pmHARgA" },
+        { "encoded_data": "CGEQ2pmHARgA" },
+        { "encoded_data": "CGIQ2pmHARgA" },
+        { "encoded_data": "CGMQ2pmHARgA" },
+        { "encoded_data": "CGQQ2pmHARgA" }
       ]
     }
   }
