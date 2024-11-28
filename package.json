@@ -1,6 +1,6 @@
 {
   "name": "steam-auto-queue",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Auto finish steam events, like discovery queue, vote steam awards, etc.",
   "main": "index.js",
   "dependencies": {
