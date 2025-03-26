@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.11.0 MAR 26, 2025
+
+- add point store plugin
+- add City Builder & Colony Sim Fest 2025 settings
+
 ## v2.10.0 NOV 28, 2024
 
 - add setting for steam awards 2024

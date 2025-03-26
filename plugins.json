@@ -126,7 +126,7 @@
   {
     "name": "steam-awards-2024",
     "script": "steam_awards_2023.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "nominates": [
         { "encoded_data": "CG4Q2pmHARgA" },
@@ -140,6 +140,18 @@
         { "encoded_data": "CHYQ2pmHARgA" },
         { "encoded_data": "CHcQ2pmHARgA" },
         { "encoded_data": "CHgQ2pmHARgA" }
+      ]
+    }
+  },
+  {
+    "name": "City Builder & Colony Sim Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        { "defid": 371434, "expected_points_cost": 0 },
+        { "defid": 371435, "expected_points_cost": 0 },
+        { "defid": 371436, "expected_points_cost": 0 }
       ]
     }
   }

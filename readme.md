@@ -50,6 +50,10 @@ This script can help you finish Steam events automatically.
 
 - get level 2 `Steam Awards Nomination Committee 2024` Badge
 
+11. Point Store
+
+- get special sale point store items
+
 # Tested Event
 
 1. autocard
@@ -84,6 +88,10 @@ This script can help you finish Steam events automatically.
 8. Steam awards 2023 vote
 
 9. Steam awards 2024
+
+10. Point Store
+
+- City Builder & Colony Sim Fest 2025
 
 # Installation
 
