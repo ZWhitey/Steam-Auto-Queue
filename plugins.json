@@ -146,12 +146,24 @@
   {
     "name": "City Builder & Colony Sim Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         { "defid": 371434, "expected_points_cost": 0 },
         { "defid": 371435, "expected_points_cost": 0 },
         { "defid": 371436, "expected_points_cost": 0 }
+      ]
+    }
+  },
+  {
+    "name": "Box-Pushing Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        { "defid": 377686, "expected_points_cost": 0 },
+        { "defid": 377687, "expected_points_cost": 0 },
+        { "defid": 377685, "expected_points_cost": 0 }
       ]
     }
   }
