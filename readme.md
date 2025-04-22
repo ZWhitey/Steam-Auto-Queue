@@ -93,6 +93,8 @@ This script can help you finish Steam events automatically.
 
 - City Builder & Colony Sim Fest 2025
 
+- Box-Pushing Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)

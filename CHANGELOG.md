@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.11.1 APR 22, 2025
+
+- add Box-Pushing Fest 2025 settings
+
 ## v2.11.0 MAR 26, 2025
 
 - add point store plugin
