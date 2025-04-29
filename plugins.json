@@ -158,12 +158,24 @@
   {
     "name": "Box-Pushing Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         { "defid": 377686, "expected_points_cost": 0 },
         { "defid": 377687, "expected_points_cost": 0 },
         { "defid": 377685, "expected_points_cost": 0 }
+      ]
+    }
+  },
+  {
+    "name": "WarGames Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        { "defid": 380068, "expected_points_cost": 0 },
+        { "defid": 380067, "expected_points_cost": 0 },
+        { "defid": 380066, "expected_points_cost": 0 }
       ]
     }
   }
