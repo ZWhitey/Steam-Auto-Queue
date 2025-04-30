@@ -95,6 +95,8 @@ This script can help you finish Steam events automatically.
 
 - Box-Pushing Fest 2025
 
+- War Games Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
