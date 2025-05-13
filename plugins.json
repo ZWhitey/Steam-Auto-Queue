@@ -170,12 +170,24 @@
   {
     "name": "WarGames Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         { "defid": 380068, "expected_points_cost": 0 },
         { "defid": 380067, "expected_points_cost": 0 },
         { "defid": 380066, "expected_points_cost": 0 }
+      ]
+    }
+  },
+  {
+    "name": "Creature Collector Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        { "defid": 382588, "expected_points_cost": 0 },
+        { "defid": 382589, "expected_points_cost": 0 },
+        { "defid": 382587, "expected_points_cost": 0 }
       ]
     }
   }

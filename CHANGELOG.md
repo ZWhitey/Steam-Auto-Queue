@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.3 MAY 13, 2025
+
+- add Creature Collector Fest 2025 settings
+
 ## v2.11.2 APR 30, 2025
 
 - add War Games Fest 2025 settings

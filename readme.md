@@ -97,6 +97,8 @@ This script can help you finish Steam events automatically.
 
 - War Games Fest 2025
 
+- Creature Collector Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
