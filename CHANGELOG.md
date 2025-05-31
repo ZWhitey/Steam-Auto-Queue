@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.4 MAY 31, 2025
+
+- add Zombies VS Vampires Fest 2025 settings
+
 ## 2.11.3 MAY 13, 2025
 
 - add Creature Collector Fest 2025 settings

@@ -99,6 +99,8 @@ This script can help you finish Steam events automatically.
 
 - Creature Collector Fest 2025
 
+- Zombies VS Vampires Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
