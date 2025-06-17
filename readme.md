@@ -101,6 +101,8 @@ This script can help you finish Steam events automatically.
 
 - Zombies VS Vampires Fest 2025
 
+- Fishing Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
