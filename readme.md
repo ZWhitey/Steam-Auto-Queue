@@ -2,7 +2,7 @@
 
 [![ESLint](https://github.com/ZWhitey/Steam-Auto-Queue/actions/workflows/eslint.yml/badge.svg?branch=master)](https://github.com/ZWhitey/Steam-Auto-Queue/actions/workflows/eslint.yml)
 
-This script can help you finish Steam events automatically.
+A simple tool to automate Steam event tasks.
 
 # What's new in v2
 
