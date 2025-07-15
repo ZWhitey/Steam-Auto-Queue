@@ -103,6 +103,8 @@ A simple tool to automate Steam event tasks.
 
 - Fishing Fest 2025
 
+- Automation Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)

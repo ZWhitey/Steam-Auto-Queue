@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.6 JUL 15, 2025
+
+- add Automation Fest 2025 settings
+
 ## 2.11.5 JUN 17, 2025
 
 - add Fishing Fest 2025 settings

@@ -413,7 +413,7 @@
   {
     "name": "Fishing Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
@@ -426,6 +426,27 @@
         },
         {
           "defid": 391778,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Automation Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 397355,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 397354,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 397353,
           "expected_points_cost": 0
         }
       ]
