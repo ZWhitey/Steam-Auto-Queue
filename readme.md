@@ -105,6 +105,8 @@ A simple tool to automate Steam event tasks.
 
 - Automation Fest 2025
 
+- Steam China Advertising App 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
