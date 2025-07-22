@@ -434,7 +434,7 @@
   {
     "name": "Automation Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
@@ -447,6 +447,19 @@
         },
         {
           "defid": 397353,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Steam China Advertising App 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 399065,
           "expected_points_cost": 0
         }
       ]
