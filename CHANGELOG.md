@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.8 JUL 29, 2025
+
+- add Steam Racing Fest 2025 settings
+
 ## 2.11.7 JUL 23, 2025
 
 - add Steam China Advertising App 2025 settings
