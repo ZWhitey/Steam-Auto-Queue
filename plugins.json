@@ -455,11 +455,32 @@
   {
     "name": "Steam China Advertising App 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
           "defid": 399065,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Steam Racing Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 399922,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 399921,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 399923,
           "expected_points_cost": 0
         }
       ]
