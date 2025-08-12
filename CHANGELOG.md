@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.9 AUG 12, 2025
+
+- add Steam 4X Fest 2025 settings
+
 ## 2.11.8 JUL 29, 2025
 
 - add Steam Racing Fest 2025 settings
