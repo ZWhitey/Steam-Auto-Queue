@@ -489,7 +489,7 @@
   {
     "name": "Steam 4X Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
@@ -502,6 +502,27 @@
         },
         {
           "defid": 403629,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Steam TPS (third person shooter) Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 407141,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 407142,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 407140,
           "expected_points_cost": 0
         }
       ]
