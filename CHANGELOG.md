@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.10 AUG 26, 2025
+
+- add Steam TPS (third person shooter) Fest 2025 settings
+
 ## 2.11.9 AUG 12, 2025
 
 - add Steam 4X Fest 2025 settings

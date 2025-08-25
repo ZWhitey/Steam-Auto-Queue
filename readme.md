@@ -111,6 +111,8 @@ A simple tool to automate Steam event tasks.
 
 - Steam 4X Fest 2025
 
+- Steam TPS (third person shooter) Fest 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)
