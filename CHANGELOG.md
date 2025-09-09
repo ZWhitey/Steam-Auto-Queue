@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.11 SEP 9, 2025
+
+- add Steam Political Sim Fest 2025 settings
+
 ## 2.11.10 AUG 26, 2025
 
 - add Steam TPS (third person shooter) Fest 2025 settings
