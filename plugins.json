@@ -510,7 +510,7 @@
   {
     "name": "Steam TPS (third person shooter) Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
@@ -523,6 +523,27 @@
         },
         {
           "defid": 407140,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Steam Political Sim Fest 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 410296,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 410295,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 410294,
           "expected_points_cost": 0
         }
       ]
