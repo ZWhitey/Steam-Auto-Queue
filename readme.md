@@ -115,6 +115,8 @@ A simple tool to automate Steam event tasks.
 
 - Steam Political Sim Fest 2025
 
+- Immersive Storylines Game Festival 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)

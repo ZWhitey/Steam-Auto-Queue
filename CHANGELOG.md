@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.12 OCT 22, 2025
+
+- add Immersive Storylines Game Festival 2025 settings
+
 ## 2.11.11 SEP 9, 2025
 
 - add Steam Political Sim Fest 2025 settings
