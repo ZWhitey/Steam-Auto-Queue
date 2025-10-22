@@ -531,7 +531,7 @@
   {
     "name": "Steam Political Sim Fest 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
@@ -544,6 +544,27 @@
         },
         {
           "defid": 410294,
+          "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Immersive Storylines Game Festival 2025",
+    "script": "point_store.js",
+    "enable": true,
+    "data": {
+      "items": [
+        {
+          "defid": 420873,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 420872,
+          "expected_points_cost": 0
+        },
+        {
+          "defid": 420871,
           "expected_points_cost": 0
         }
       ]
