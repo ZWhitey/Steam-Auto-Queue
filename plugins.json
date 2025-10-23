@@ -558,14 +558,6 @@
         {
           "defid": 420873,
           "expected_points_cost": 0
-        },
-        {
-          "defid": 420872,
-          "expected_points_cost": 0
-        },
-        {
-          "defid": 420871,
-          "expected_points_cost": 0
         }
       ]
     }
