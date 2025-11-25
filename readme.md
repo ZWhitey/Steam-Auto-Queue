@@ -117,6 +117,8 @@ A simple tool to automate Steam event tasks.
 
 - Immersive Storylines Game Festival 2025
 
+- Steam Awards 2025
+
 # Installation
 
 1. Install [Node.js](https://nodejs.org)

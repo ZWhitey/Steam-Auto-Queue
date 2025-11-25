@@ -552,12 +552,54 @@
   {
     "name": "Immersive Storylines Game Festival 2025",
     "script": "point_store.js",
-    "enable": true,
+    "enable": false,
     "data": {
       "items": [
         {
           "defid": 420873,
           "expected_points_cost": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "steam-awards-2025",
+    "script": "steam_awards_2023.js",
+    "enable": true,
+    "data": {
+      "nominates": [
+        {
+          "encoded_data": "CIIBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIMBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIQBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIUBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIYBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIcBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIgBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIkBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIoBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIsBENqZhwEYAA%3D%3D"
+        },
+        {
+          "encoded_data": "CIwBENqZhwEYAA%3D%3D"
         }
       ]
     }
